@@ -5,7 +5,7 @@ import { TurtleArt } from "./MarineArt";
 import { site } from "@/content/site";
 
 const formEndpoint = `https://formsubmit.co/${site.contactEmail}`;
-const publicSiteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://earlessentials.github.io/personal";
+const publicSiteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://pearlinglim.com";
 
 export function CollaborationForm() {
   const [sent, setSent] = useState(false);
