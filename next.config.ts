@@ -1,8 +1,15 @@
 import type { NextConfig } from "next";
 
-const repoName = process.env.GITHUB_PAGES_REPO || "personal";
-const isGithubPages = process.env.GITHUB_PAGES === "true";
-const basePath = isGithubPages ? `/${repoName}` : "";
+function normalizeBasePath(value: string | undefined) {
+  if (!value || value === "/") return "";
+  return value.startsWith("/") ? value : `/${value}`;
+}
+
+const hasExplicitBasePath = Object.prototype.hasOwnProperty.call(process.env, "NEXT_PUBLIC_BASE_PATH");
+const legacyGithubPagesBasePath = process.env.GITHUB_PAGES_REPO ? `/${process.env.GITHUB_PAGES_REPO}` : "";
+const basePath = hasExplicitBasePath
+  ? normalizeBasePath(process.env.NEXT_PUBLIC_BASE_PATH)
+  : normalizeBasePath(legacyGithubPagesBasePath);
 
 const nextConfig: NextConfig = {
   reactStrictMode: true,
