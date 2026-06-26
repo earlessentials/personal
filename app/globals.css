@@ -55,7 +55,7 @@ a { color: inherit; }
 @keyframes pearl-float { to { transform: translateY(-8px); } }
 .object-label { position: absolute; pointer-events: none; min-width: max-content; padding: .45rem .65rem; color: var(--pearl); background: rgba(7,30,45,.86); border: 1px solid rgba(215,196,163,.4); border-radius: 2px; font: 600 .6rem/1.3 var(--sans); letter-spacing: .06em; opacity: 0; transform: translateY(5px); transition: .25s; }
 .object-label b { display: block; margin-top: 3px; color: var(--sand); }
-.turtle-contact { position: absolute; z-index: 9; right: 2%; top: 48%; width: clamp(150px, 15vw, 250px); color: inherit; animation: turtle-swim 10s ease-in-out infinite alternate; }
+.turtle-contact { position: absolute; z-index: 7; right: .5%; top: 44%; width: clamp(120px, 12vw, 210px); color: inherit; animation: turtle-swim 10s ease-in-out infinite alternate; }
 .turtle-contact svg { width: 100%; filter: drop-shadow(0 12px 9px rgba(7,30,45,.6)); }
 .turtle-contact .object-label { right: 75%; top: 35%; }
 .turtle-contact:hover .object-label, .turtle-contact:focus-visible .object-label { opacity: 1; transform: translateY(0); }

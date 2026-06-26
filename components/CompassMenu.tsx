@@ -16,8 +16,9 @@ export function CompassMenu({ onReplay }: { onReplay?: () => void }) {
 
   useEffect(() => {
     const saved = localStorage.getItem("pearl-tide") === "night";
-    setNight(saved);
     document.documentElement.dataset.tide = saved ? "night" : "day";
+    const frame = window.requestAnimationFrame(() => setNight(saved));
+    return () => window.cancelAnimationFrame(frame);
   }, []);
 
   useEffect(() => {

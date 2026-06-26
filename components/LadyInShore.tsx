@@ -170,7 +170,7 @@ export function LadyInShore() {
   }, []);
   return <main className="shore-page" id="main-content">
     <div className="shore-atmosphere" aria-hidden="true"><div className="shore-sun"/><div className="shore-mist one"/><div className="shore-mist two"/><BirdFlight/></div>
-    <Link className="shore-return" href="/">← Return to Pearl's Cove</Link><SoundToggle/>
+    <Link className="shore-return" href="/">← Return to Pearl&apos;s Cove</Link><SoundToggle/>
     <section className="shore-opening" aria-labelledby="shore-title"><div className="opening-sea" aria-hidden="true"><i/><i/><i/></div><div className="weathered-sign"><span/><h1 id="shore-title">{copy.title}</h1><blockquote>“{copy.openingQuote}”</blockquote></div><div className="pearl-hermit" aria-hidden="true"><span>●</span><i/><i/><i/></div><div className="footprint-trail" aria-hidden="true">{Array.from({length:8},(_,index)=><i key={index}/>)}</div></section>
     <PortraitCottage/><HolyTrinity/><WritingCorner/><ManyTides/><BookOyster/><ThinkingChart/><Workshops/><AncientTurtle/>
     <footer className="shore-footer">© 2026 Pearling Lim. All Rights Reserved</footer><CompassMenu/>

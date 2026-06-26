@@ -36,7 +36,12 @@ export function SeaWorld() {
   const [found, setFound] = useState(false);
   const sea = useRef<HTMLElement>(null);
 
-  useEffect(() => setIntro(localStorage.getItem("pearl-entered") !== "yes"), []);
+  useEffect(() => {
+    const frame = window.requestAnimationFrame(() => {
+      setIntro(localStorage.getItem("pearl-entered") !== "yes");
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, []);
   const enter = () => { localStorage.setItem("pearl-entered", "yes"); setIntro(false); };
   const replay = () => setIntro(true);
   const randomPearl = useCallback(() => {
