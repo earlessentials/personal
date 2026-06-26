@@ -1,0 +1,91 @@
+export const thinkerContent = {
+  title: "The Thinker Shell",
+  eyebrow: "A philosopher’s shell",
+  introduction: "Questions before conclusions. Wonder before certainty.",
+  lede: [
+    "I love examining assumptions, holding contradictions without rushing to settle them, tracing ideas back to their roots, and staying with a question long enough to learn what it wants.",
+    "Essays, dialogues, slow arguments, and reflections gather here, each one a small practice in looking closely at how we know, what we value, and why we believe.",
+  ],
+  belief: "I believe asking a better question changes everything.",
+  book: {
+    title: "Exist Beyond Existing",
+    subtitle: "An experiential epistemology of knowing, becoming, and being.",
+    hook: "What if the search for meaning is the very thing keeping you from truly living?",
+    url: "https://www.amazon.com/Exist-Beyond-Existing-Pearling-Lim-ebook/dp/B0GHZDZYDF",
+    lenses: [
+      { title: "What it is", body: "A philosophical and literary exploration of how knowledge is formed through lived experience rather than explanation. It examines the subtle transitions between knowing, becoming, and being, the moments when understanding gives way to presence, and insight becomes something to inhabit." },
+      { title: "What it does and refuses to do", body: "The book traces how meaning appears through attention, limitation, uncertainty, and time. It asks what remains when identity loosens, when purpose no longer organises life, and when awareness is no longer something to perform." },
+      { title: "Who it is for", body: "Drawing from existential philosophy, phenomenology, and contemplative inquiry, it speaks to readers who have outgrown instruction and are seeking coherence, those who sense that life is meant to be lived with clarity and restraint." },
+    ],
+    closing: "A meditation on staying with experience, with ambiguity, and with being itself.",
+  },
+  standingWave: {
+    title: "The Standing Wave",
+    subtitle: "A method for thinking with a contradiction instead of resolving it too early.",
+    intro: "Where two currents meet, water can hold a single stable shape. Some of the most durable ideas are standing waves: they stay upright only because two opposing truths both keep pushing.",
+    steps: [
+      { title: "Name both currents", body: "State the two opposing truths in their strongest, most generous form. Refuse the weak version of either." },
+      { title: "Find the meeting line", body: "Locate the exact situation where they collide. A contradiction is vague in the abstract and sharp in a specific case." },
+      { title: "Watch the wave hold", body: "Describe the shape their tension produces, the insight that exists only because both truths remain true at once." },
+      { title: "Test the depth", body: "Push on each current. Note the conditions that flatten the wave and the conditions that keep it standing." },
+      { title: "Mark the water", body: "Write one sentence a person can carry away that keeps both truths alive." },
+    ],
+    example: [
+      ["Current A", "A person becomes themselves by choosing."],
+      ["Current B", "A person is largely made by what they inherited."],
+      ["Meeting line", "The moment someone claims a value they were raised inside."],
+      ["The wave", "Identity is an inheritance re-signed in your own hand."],
+      ["Carry sentence", "You author yourself by deciding which gifts to keep."],
+    ],
+  },
+  existenceGap: {
+    title: "The Existence Gap",
+    definition: "The distance between being alive and being present to your own life. Everyone has one. The work is to notice when it widens.",
+    signals: [
+      "You can describe your week in tasks but not in moments.",
+      "You feel busy and unspent at the same time.",
+      "Someone asks how you are and you answer with your calendar.",
+    ],
+  },
+  experience: {
+    title: "The Experience That Started the Book",
+    paragraphs: [
+      "I once spent an entire flight perfecting a reply to an email that needed no reply, and missed the Himalayas out the window.",
+      "The stranger beside me was crying at the view.",
+      "I was optimising a sentence.",
+      "That was the gap, in 4K.",
+      "I closed the laptop. I’ve been trying to keep it closed ever since.",
+    ],
+  },
+  decisionTool: {
+    title: "The Gap as a Decision Tool",
+    subtitle: "A small case study",
+    cases: [
+      ["Situation", "I was offered more of the work that paid well and bored me senseless."],
+      ["The gap test", "Would future-me describe this year in moments, or in invoices?"],
+      ["The move", "I declined the safe yes and built something that scared me instead."],
+      ["The result", "Less certainty, more aliveness. The bank account survived. The boredom did not."],
+    ],
+  },
+  conchLoop: {
+    title: "The Conch Loop",
+    subtitle: "Hearing the question inside the noise.",
+    maxim: "A conch doesn’t make the sound of the sea. It makes the sound of you, listening.",
+    problem: "Most observations evaporate. We notice something true, feel a flicker of insight, and then move on before it becomes anything reusable. The Conch Loop is a five-movement spiral for converting a raw observation into a durable mental model without forcing premature closure.",
+    note: "It is deliberately a loop, not a line: the final movement feeds the first.",
+    movements: [
+      { number: "1", name: "Catch", move: "Record the observation verbatim, before interpreting it.", question: "What exactly did I notice?" },
+      { number: "2", name: "Crack", move: "Invert it. Imagine the opposite were true.", question: "What would have to be true for the reverse?" },
+      { number: "3", name: "Core", move: "Strip the observation to first principles.", question: "What here is undeniably, mechanically true?" },
+      { number: "4", name: "Cross", move: "Borrow logic from three unrelated domains.", question: "Where else does this exact shape appear?" },
+      { number: "5", name: "Carry", move: "Name the model, but leave one question open.", question: "What do I still not understand?" },
+    ],
+    worked: [
+      ["Catch", "I focus far better in a noisy café than in my silent apartment."],
+      ["Crack", "If silence caused focus, libraries would beat cafés for me. They don’t. So silence isn’t the active ingredient."],
+      ["Core", "What’s mechanically true: in a café I am mildly observed and cannot easily leave. Two forces: gentle social presence + friction to quit."],
+      ["Cross", "Gyms: others are present, so you push harder. Writing groups: deadlines you would skip alone become harder to ignore. Open kitchens: chefs perform more cleanly under watch."],
+      ["Carry", "Ambient Accountability: low-grade, anonymous witness raises baseline effort. Open question: does it stop working once the witnesses become familiar?"],
+    ],
+  },
+} as const;

@@ -1,0 +1,11 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#487f91"/><stop offset=".45" stop-color="#082f49"/><stop offset="1" stop-color="#071e2d"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#f4f0e8" stop-opacity=".35"/><stop offset="1" stop-color="#f4f0e8" stop-opacity="0"/></radialGradient>
+    <filter id="paper"><feTurbulence baseFrequency=".8" numOctaves="4"/></filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sea)"/>
+  <ellipse cx="800" cy="-50" rx="650" ry="450" fill="url(#light)"/>
+  <path d="M80 990q30-180 60 0m20 0q50-260 90 0m1100 0q40-230 90 0m40 0q20-150 50 0" fill="none" stroke="#487f91" stroke-width="34" stroke-linecap="round" opacity=".5"/>
+  <rect width="1600" height="1000" filter="url(#paper)" opacity=".04"/>
+</svg>
