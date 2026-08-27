@@ -182,7 +182,7 @@ const copy = {
       spacious: "Spacious",
     },
     dispatchKicker: "Field note · Keep this",
-    dispatchQuote: "You do not need total certainty. You need enough room for curiosity to become evidence.",
+    dispatchQuote: "To truly live, sometimes, you need enough room for curiosity to become evidence.",
     dispatchBridge: "A bridge is not a failure of courage. It is architecture for a braver experiment.",
     dispatchFormula: "RUNWAY = DEPLOYABLE CASH ÷ MONTHLY BURN",
     worksheetLabel: "Working paper · edit the pale cards",
@@ -981,7 +981,7 @@ export default function Home() {
           <div className="dispatch-index"><span>FM</span><strong>01</strong></div>
           <div className="dispatch-quote">
             <p>{t.dispatchKicker}</p>
-            <blockquote>“{name.trim() ? `${name.trim()}, ` : ""}{t.dispatchQuote.charAt(0).toLowerCase() + t.dispatchQuote.slice(1)}”</blockquote>
+            <blockquote>“{name.trim() ? `${name.trim()}, ` : ""}{lang === "en" ? t.dispatchQuote : t.dispatchQuote.charAt(0).toLowerCase() + t.dispatchQuote.slice(1)}”</blockquote>
           </div>
           <aside>
             <p>{t.dispatchBridge}</p>
