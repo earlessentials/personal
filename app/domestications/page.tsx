@@ -299,7 +299,6 @@ export default function Home() {
     <div className={`site-shell step-${step}`}>
       <header className="topbar">
         <button className="wordmark" onClick={() => moveTo(0)}>
-          <span className="wordmark-mark">FD</span>
           <span>THE FOUR DOMESTICATIONS</span>
         </button>
         <div className="topbar-progress" aria-label="Progres scorecard">
@@ -440,7 +439,7 @@ export default function Home() {
               </div>
 
               <blockquote className="truth-note content-width">
-                Jawab berdasarkan apa yang benar-benar kamu lakukan, bukan
+                Jawab berdasarkan apa yang benar-benar kamu lakukan, jangan
                 berdasarkan versi dirimu yang ingin kamu percaya.
               </blockquote>
 
