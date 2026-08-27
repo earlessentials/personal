@@ -41,7 +41,7 @@ const copy = {
     titleB: "without guessing the cost.",
     intro:
       "Turn “I want to quit everything” into a grounded plan for your floor, runway, bridge income, and experimentation capacity.",
-    notCommand: "A planning tool, never a command to quit.",
+    notCommand: "A planning tool",
     warningLabel: "Calculator warning",
     inputWarning: "This is a simplified estimate. Recheck every input, test pessimistic scenarios, and never use one result as the sole basis for a major financial decision.",
     resultWarning: "Live estimate only — the result is sensitive to every assumption above.",
@@ -249,7 +249,7 @@ const copy = {
     titleB: "tanpa menebak biayanya.",
     intro:
       "Ubah “aku ingin berhenti dari semuanya” menjadi rencana yang membumi: kebutuhan minimum, runway, pendapatan jembatan, dan ruang untuk bereksperimen.",
-    notCommand: "Alat untuk merencanakan, bukan perintah untuk resign.",
+    notCommand: "Alat untuk merencanakan",
     warningLabel: "Peringatan kalkulator",
     inputWarning: "Ini adalah perkiraan sederhana. Periksa ulang setiap angka, uji skenario pesimistis, dan jangan jadikan satu hasil sebagai satu-satunya dasar keputusan keuangan besar.",
     resultWarning: "Hanya perkiraan saat ini — hasil sangat sensitif terhadap setiap asumsi di atas.",
