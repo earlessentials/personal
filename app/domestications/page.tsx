@@ -343,7 +343,7 @@ export default function Home() {
               <div className="hero">
                 <div className="hero-grid">
                   <div className="hero-copy">
-                    <p className="eyebrow">THE FERAL &amp; FALLOW SEASON OF THE SELF</p>
+                    <p className="eyebrow">Feral &amp; Fallow: Between Selves</p>
                     <h1>
                       <span>THE FOUR</span>
                       <span>DOMESTI—</span>
@@ -787,7 +787,7 @@ export default function Home() {
               </div>
               <div className="closing-copy content-width">
                 <p>
-                  Karena tujuan The Feral &amp; Fallow Season of the Self adalah
+                  Karena tujuan Feral &amp; Fallow: Between Selves adalah
                   memastikan bahwa kualitas yang pernah membantumu bertahan,
                   berhasil, dicintai, dan diterima tetap menjadi tools yang bisa
                   kamu gunakan, alih-alih kontrak yang harus kamu patuhi.
