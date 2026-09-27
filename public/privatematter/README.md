@@ -1,5 +1,6 @@
-PRIVATE MATTER production frontend.
+PRIVATE MATTER — GitHub Pages build.
 
-Source: projects/private-matter/private-matter-source.tar.gz in earlessentials/personal.
-Backend: owner Supabase project cdyzpgvamzeweiwyfzcm.
-Only this folder belongs to the publication; preserve the rest of the website.
+Source: projects/private-matter/private-matter-source.tar.gz
+Backend: owner-managed Supabase project cdyzpgvamzeweiwyfzcm.
+Includes admin-only deletion, editable bylines and original publication dates.
+No access credentials are included.

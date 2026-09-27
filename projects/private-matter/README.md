@@ -16,11 +16,14 @@ configuration. Pearling has dual reader/contributor administrator access.
 Codes, hashes and service credentials are intentionally absent from this repo.
 
 Contributors can create drafts, publish public/private/excerpt articles, revise
-their own work, upload images and videos, and embed YouTube videos. The initial
+their own work, enter a writer name on each draft, upload images and videos, and
+embed YouTube videos. Only Pearling’s master access can delete drafts or published
+matters. Publication dates appear throughout the reading experience and stay
+unchanged when an article is revised. The initial
 publication is empty. Payments and reader-code delivery remain external.
 
-Verification: eight local PostgreSQL test groups, TypeScript, production build
-and 115 hosted integration checks passed. Live checks covered every original
+Verification: nine local PostgreSQL test groups, TypeScript, production build,
+115 initial hosted checks and 47 update checks passed (27 September 2026). Live checks covered every original
 code, roles, publishing ownership, private media and video byte ranges. All test
 articles and uploaded files were removed before deployment.
 
