@@ -22,10 +22,16 @@ matters. Publication dates appear throughout the reading experience and stay
 unchanged when an article is revised. The initial
 publication is empty. Payments and reader-code delivery remain external.
 
-Verification: nine local PostgreSQL test groups, TypeScript, production build,
+Verification: ten local PostgreSQL test groups, TypeScript, production build,
 115 initial hosted checks and 47 update checks passed (27 September 2026). Live checks covered every original
 code, roles, publishing ownership, private media and video byte ranges. All test
 articles and uploaded files were removed before deployment.
 
 Supabase Free service limits and inactivity pausing apply. No paid plan or
 Cloudflare service was activated for this deployment.
+
+Regional checkout selects Lynk for Indonesian IP addresses and Gumroad for
+other recognised locations. Both options remain available through a small
+region switch. The bundled DB-IP Lite lookup runs in the existing Supabase
+backend; visitor IP addresses are not sent to a separate geolocation service.
+The source archive includes the lookup code, data license and refresh script.
