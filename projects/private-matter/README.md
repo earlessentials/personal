@@ -65,3 +65,15 @@ Keep the original Supabase export and original media in private backup storage.
 Do not remove the original project during cutover. Reverting the frontend API
 endpoint can restore the previous service, but any data written after cutover
 must be reconciled first. Cloudflare service quotas and R2 usage billing apply.
+
+## Latest contributor controls
+
+After extracting `private-matter-source.tar.gz`, copy the contents of
+`current-source/` over the extracted source directory. These files contain the
+latest master-only contributor reader-access control. They supersede the
+matching files in the archive; every other archive file remains applicable.
+
+In Curator settings → Contributors, the master can enable reader access for
+each contributor. The same code then grants reading and writing, without admin
+permissions. Disabling reader access revokes reader sessions while preserving
+writing access. The master retains both roles permanently.
