@@ -282,3 +282,13 @@ test('master controls contributor reading without changing writing or permanent 
  assert.equal((await req('/stories',{tokens:reading})).status,401,'revoked tokens stay revoked after re-enable');
  await req('/settings',{method:'POST',tokens:admin,body:{contributor:{id:'contributor-2',readerAccess:false}}});
 });
+
+test('revisions and repeated publish requests do not consume Matter numbers',async()=>{
+ const post=story();const first=await req('/studio',{method:'POST',tokens:admin,body:post});assert.equal(first.status,200);
+ for(let i=0;i<4;i++){const r=await req('/studio',{method:'POST',tokens:admin,body:{...post,title:'Revision '+i}});assert.equal(r.status,200);assert.equal(r.data.story.number,first.data.story.number);assert.equal(r.data.story.slug,first.data.story.slug)}
+ const repeated=await Promise.all([1,2,3].map(()=>req('/studio',{method:'POST',tokens:admin,body:post})));assert.ok(repeated.every(r=>r.status===200&&r.data.story.number===first.data.story.number));
+ const draft=story('private',{action:'draft'});await req('/studio',{method:'POST',tokens:admin,body:draft});
+ const next=await req('/studio',{method:'POST',tokens:admin,body:{...draft,action:'publish'}});assert.equal(next.status,200);assert.equal(next.data.story.number,first.data.story.number+1);
+ await req('/studio?id='+next.data.story.id,{method:'DELETE',tokens:admin});
+ const afterDelete=await req('/studio',{method:'POST',tokens:admin,body:story()});assert.equal(afterDelete.data.story.number,next.data.story.number+1,'deleted numbers are never reused');
+});

@@ -67,8 +67,9 @@ export function createRpc(db){
   if(old?.status==='published'&&d.action==='draft'&&old.visibility!==d.visibility)return fail('Use Publish revision to confirm a change to who can read this matter.');
   for(const id of d.mediaIds||[]){const m=await one('SELECT * FROM pm_media WHERE id=?',[id]);if(!m)return fail('An uploaded image or video is unavailable. Please upload it again.');if(!admin&&m.owner_id!==actor)return fail('Use images and videos uploaded with your own contributor code.',403)}
   const publish=d.action==='publish',columns=['id','slug','title','subtitle','category','body','author','access_id','created_at','updated_at','published_at','status','matter_number','tags','cover','caption','image_alt','image_mode','references_text','seo_description','visibility','excerpt','display_date'];
+  // Skip existing allocations before INSERT: ON CONFLICT alone advances AUTOINCREMENT.
   // Allocation and upsert share one atomic batch, preserving numbers under concurrent publishes.
-  const allocation=stmt(`INSERT INTO pm_numbers(post_id) SELECT ? WHERE ?=1 AND NOT EXISTS(SELECT 1 FROM pm_posts WHERE id=? AND access_id<>? AND ?=0) ON CONFLICT(post_id) DO NOTHING`,[d.id,publish?1:0,d.id,actor,admin?1:0]);
+  const allocation=stmt(`INSERT INTO pm_numbers(post_id) SELECT ? WHERE ?=1 AND NOT EXISTS(SELECT 1 FROM pm_numbers WHERE post_id=?) AND NOT EXISTS(SELECT 1 FROM pm_posts WHERE id=? AND access_id<>? AND ?=0) ON CONFLICT(post_id) DO NOTHING`,[d.id,publish?1:0,d.id,d.id,actor,admin?1:0]);
   const number='(SELECT number FROM pm_numbers WHERE post_id=?)';
   const values=[d.id,d.slugBase,d.id,d.id,d.title.trim()||'Untitled matter',d.subtitle.trim(),d.category,d.body,d.author?.trim()||old?.author||u.name||'Contributor',actor,now,now,publish?now:null,publish?'published':'draft',d.id,JSON.stringify(d.tags),d.cover,d.caption,d.imageAlt,d.imageMode,d.references,d.seoDescription,d.visibility,d.excerpt,Object.hasOwn(d,'publicationDate')?d.publicationDate||null:old?.display_date||null];
   const update=columns.filter(k=>!['id','access_id','created_at','slug','matter_number','published_at','status'].includes(k)).map(k=>`${k}=excluded.${k}`).join(',');
