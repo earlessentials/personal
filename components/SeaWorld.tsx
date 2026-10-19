@@ -2,24 +2,15 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useCallback, useRef, useState } from "react";
 import { site } from "@/content/site";
 import { pearls, type Pearl } from "@/content/pearls";
 import { worlds } from "@/content/worlds";
-import { ArcadeShellArt, BottleArt, OysterArt, ShellArt, TurtleArt } from "./MarineArt";
+import { ArcadeShellArt, BottleArt, OysterArt, PrivateMatterReadingBellArt, ShellArt, TurtleArt } from "./MarineArt";
 import { CompassMenu } from "./CompassMenu";
 import { PearlModal } from "./PearlModal";
 import { SocialStarfish } from "./SocialStarfish";
 import { assetPath } from "@/lib/paths";
-
-function Intro({ onEnter }: { onEnter: () => void }) {
-  return <div className="intro-veil">
-    <div className="intro-card">
-      <span className="intro-star" aria-hidden="true">✦</span>
-      <button className="enter-water" onClick={onEnter}>{site.entranceLabel} <span>→</span></button>
-    </div>
-  </div>;
-}
 
 function PearlButton({ pearl, onOpen }: { pearl: Pearl; onOpen: (pearl: Pearl) => void }) {
   return <button
@@ -30,20 +21,11 @@ function PearlButton({ pearl, onOpen }: { pearl: Pearl; onOpen: (pearl: Pearl) =
 }
 
 export function SeaWorld() {
-  const [intro, setIntro] = useState(true);
   const [pearl, setPearl] = useState<Pearl | null>(null);
   const [pointer, setPointer] = useState({ x: 0, y: 0 });
   const [found, setFound] = useState(false);
   const sea = useRef<HTMLElement>(null);
 
-  useEffect(() => {
-    const frame = window.requestAnimationFrame(() => {
-      setIntro(localStorage.getItem("pearl-entered") !== "yes");
-    });
-    return () => window.cancelAnimationFrame(frame);
-  }, []);
-  const enter = () => { localStorage.setItem("pearl-entered", "yes"); setIntro(false); };
-  const replay = () => setIntro(true);
   const randomPearl = useCallback(() => {
     const choices = pearls.filter((item) => item.id !== pearl?.id);
     setPearl(choices[Math.floor(Math.random() * choices.length)]);
@@ -69,7 +51,7 @@ export function SeaWorld() {
       <span>{site.subtitle}</span>
     </header>
 
-    <section id="destinations" className="sea-map" aria-label="The five shells">
+    <section id="destinations" className="sea-map" aria-label="The shells and the reading bell">
       {worlds.map((world, index) => <Link
         className={`shell-destination shell-${world.id}`}
         key={world.id} href={`/worlds/${world.id}`}
@@ -79,6 +61,12 @@ export function SeaWorld() {
         <ShellArt type={world.shellType}/>
         <span className="world-label"><small>Shell 0{index + 1}</small><strong>{world.title}</strong><em>{world.shortDescription}</em></span>
       </Link>)}
+
+      <a className="shell-destination shell-private-matter" href="https://www.pearlinglim.com/privatematter" aria-label="Private Matter">
+        <span className="shell-halo"/>
+        <PrivateMatterReadingBellArt/>
+        <span className="world-label"><small>The Reading Bell</small><strong>Private Matter</strong><em>Ideas worth sitting with.</em></span>
+      </a>
 
       {pearls.map((item) => <PearlButton key={item.id} pearl={item} onOpen={setPearl}/>)}
 
@@ -104,8 +92,7 @@ export function SeaWorld() {
 
     <p className="explore-note">Drift, tap, or use the compass. There is no correct way through.</p>
     <footer className="sea-footer">{site.copyright}</footer>
-    <CompassMenu onReplay={replay}/>
-    {intro && <Intro onEnter={enter}/>} 
+    <CompassMenu/>
     {pearl && <PearlModal pearl={pearl} onClose={() => setPearl(null)} onRandom={randomPearl}/>} 
   </main>;
 }

@@ -245,3 +245,18 @@ a { color: inherit; }
 .shuffle-table{min-height:470px;padding:clamp(1.3rem,4vw,3rem);color:#352a24;background:radial-gradient(ellipse at 50% 100%,#c59f6f 0 32%,transparent 33%),linear-gradient(#8fb8b6 0 45%,#d7c098 46%);border:9px double #b68a58;text-align:center}.shuffle-table>p{font:italic 1.2rem var(--serif)}.shuffle-shells{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;max-width:740px;margin:3rem auto 1.5rem}.shuffle-shells button{position:relative;min-height:185px;border:0;background:transparent;cursor:pointer}.shuffle-shell{position:absolute;z-index:2;left:50%;bottom:20px;width:175px;height:125px;translate:-50%;border-radius:52% 52% 12% 12%;background:linear-gradient(145deg,#f2e5cc,#c8a57a);border:5px solid #76513f;transition:transform .5s}.shuffle-shell:after{content:"";position:absolute;inset:11px;border-radius:inherit;border:3px double #9b6f54}.shuffle-shell i{position:absolute;left:50%;bottom:0;width:2px;height:90%;background:#9c6e54;transform-origin:bottom}.shuffle-shell i:first-child{rotate:-28deg}.shuffle-shell i:last-child{rotate:28deg}.shuffle-shells button>b{position:absolute;z-index:1;left:50%;bottom:20px;translate:-50%;font-size:3rem}.shuffle-shells button.has-crab .shuffle-shell,.shuffle-shells button.is-empty .shuffle-shell{transform:translateY(-90px) rotate(-8deg)}.shuffle-shells button:nth-child(2).has-crab .shuffle-shell,.shuffle-shells button:nth-child(2).is-empty .shuffle-shell{transform:translateY(-90px)}.shuffle-shells button:nth-child(3).has-crab .shuffle-shell,.shuffle-shells button:nth-child(3).is-empty .shuffle-shell{transform:translateY(-90px) rotate(8deg)}.shuffle-result{display:flex;align-items:center;justify-content:center;gap:1rem;min-height:60px;padding:1rem;color:#f4e9d8;background:#173d49}.shuffle-result strong{font:italic 1.15rem var(--serif)}
 @keyframes arcade-light{50%{opacity:.35}}@keyframes paradox-needle{0%,100%{transform:rotate(-38deg)}50%{transform:rotate(38deg)}}
 @media(max-width:760px){.arcade-marquee{grid-template-columns:1fr;padding:1rem}.arcade-marquee>span{display:none}.arcade-cabinets{display:flex;overflow-x:auto;padding:.5rem;scroll-snap-type:x mandatory}.arcade-cabinets button{flex:0 0 72vw;min-height:140px;scroll-snap-align:center}.arcade-stage{min-height:560px;padding:.65rem;border-width:8px}.paradox-cabinet{grid-template-columns:1fr}.paradox-dial{width:120px;margin:auto}.current-choices{grid-template-columns:1fr}.current-choices>span{padding:.2rem}.shuffle-shells{gap:.2rem}.shuffle-shell{width:105px;height:85px}.shuffle-shells button{min-height:155px}.shuffle-result{flex-direction:column}.arcade-game .game-head{display:grid;grid-template-columns:1fr}.arcade-game .game-stats{flex-direction:row;flex-wrap:wrap}}
+
+/* Private Matter: a pearl-lit reading bell. */
+.shell-private-matter{left:50%;top:78%;width:clamp(110px,11vw,185px)}
+.shell-private-matter .world-label{left:50%;right:auto;top:85%;translate:-50% 0;text-align:center;border-left:0;border-top:2px solid var(--berry)}
+.shell-private-matter svg{animation-duration:7.8s;animation-delay:-2.5s}
+@media(max-width:760px){.shell-private-matter{order:6}}
+@media(max-width:760px) and (orientation:portrait){
+ .shell-storyteller{left:17%!important;top:42%!important}
+ .shell-explorer{left:83%!important;top:42%!important}
+ .shell-private-matter{left:50%!important;top:41%!important;width:88px;transform:rotate(-2deg)!important}
+}
+
+.shell-private-matter .reading-glow{opacity:.65;transition:opacity .5s}
+.shell-private-matter:hover .reading-glow,.shell-private-matter:focus-visible .reading-glow{opacity:1}
+@media(max-width:760px) and (orientation:portrait){.shell-private-matter .world-label{top:76%;border:0}}

@@ -119,3 +119,30 @@ export function BottleArt({ className = "" }: ArtProps) {
     <path d="m42 111 37-10m-34 22 26-7" stroke="#81294c" strokeWidth="2"/>
   </svg>;
 }
+
+export function PrivateMatterReadingBellArt() {
+  return <svg viewBox="0 0 220 190" role="img" aria-label="An open book in a glass diving bell, lit by a pearl">
+    <defs>
+      <linearGradient id="reading-glass" x1="0" y1="0" x2="1" y2="1"><stop stopColor="#c7e6de" stopOpacity=".5"/><stop offset=".45" stopColor="#74a5a7" stopOpacity=".13"/><stop offset="1" stopColor="#bfd8d2" stopOpacity=".35"/></linearGradient>
+      <linearGradient id="reading-brass" x1="0" y1="0" x2="0" y2="1"><stop stopColor="#f0dfb8"/><stop offset=".5" stopColor="#b99765"/><stop offset="1" stopColor="#80634d"/></linearGradient>
+      <radialGradient id="reading-light"><stop stopColor="#fff3c8" stopOpacity=".65"/><stop offset="1" stopColor="#ffe5ac" stopOpacity="0"/></radialGradient>
+    </defs>
+    <ellipse cx="110" cy="173" rx="74" ry="8" fill="#071e2d" opacity=".35"/>
+    <circle cx="110" cy="20" r="10" fill="none" stroke="#d7c4a3" strokeWidth="5"/>
+    <path d="M53 150V89c0-37 23-59 57-59s57 22 57 59v61Z" fill="url(#reading-glass)" stroke="#d7c4a3" strokeWidth="3"/>
+    <path d="M65 94c0-27 11-44 29-50" fill="none" stroke="#eff8ee" strokeWidth="5" strokeLinecap="round" opacity=".7"/>
+    <path d="M155 106v29" fill="none" stroke="#eff8ee" strokeWidth="3" strokeLinecap="round" opacity=".4"/>
+    <ellipse className="reading-glow" cx="110" cy="99" rx="49" ry="53" fill="url(#reading-light)"/>
+    <path d="M110 32v21" stroke="#b99765" strokeWidth="2"/>
+    <circle cx="110" cy="64" r="10" fill="#fff3d6" stroke="#d7c4a3" strokeWidth="2"/>
+    <path d="m74 139 36 9 36-9v-33l-36 8-36-8Z" fill="#681d3c" stroke="#681d3c" strokeWidth="4" strokeLinejoin="round"/>
+    <path d="M110 111c-11-10-25-12-37-10v32c14-1 26 3 37 11 11-8 23-12 37-11v-32c-12-2-26 0-37 10Z" fill="#efe3cb" stroke="#9a5570" strokeWidth="2" strokeLinejoin="round"/>
+    <path d="M110 112v30m-30-32 21 7m-21 1 21 7m-21 1 15 5m44-21-20 7m20 1-20 7" fill="none" stroke="#9c8267" strokeWidth="2" strokeLinecap="round"/>
+    <path d="M121 106v25l5-5 4 2v-24" fill="#81294c"/>
+    <path d="M48 149h124l7 13H41Z" fill="url(#reading-brass)" stroke="#70533f" strokeWidth="3" strokeLinejoin="round"/>
+    <path d="M47 166h126" stroke="#d7c4a3" strokeWidth="3" strokeLinecap="round"/>
+    <circle cx="61" cy="156" r="2" fill="#681d3c"/><circle cx="159" cy="156" r="2" fill="#681d3c"/>
+    <circle cx="186" cy="65" r="6" fill="none" stroke="#bfd8d2" strokeWidth="2" opacity=".65"/>
+    <circle cx="178" cy="40" r="3" fill="none" stroke="#bfd8d2" strokeWidth="1.5" opacity=".45"/>
+  </svg>;
+}
