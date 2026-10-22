@@ -20,3 +20,5 @@ header{background:#211932;color:var(--cream);margin:0;padding:0 5.2%;border-bott
 footer{flex-wrap:wrap;align-items:center;column-gap:25px;row-gap:16px}
 
 .tool-name{display:flex;flex-direction:column;gap:7px}.tool-name>span:first-child{font:500 23px/1.1 'Space Grotesk',sans-serif;letter-spacing:-.7px;color:var(--cream)}.tool-name .header-caption{font-size:8px;letter-spacing:1.3px;max-width:none}@media(max-width:700px){.tool-name>span:first-child{font-size:20px}.tool-name{gap:5px}.tool-name .header-caption{font-size:6px;letter-spacing:1px;line-height:1.4}}
+
+.story-criteria{margin-top:55px;padding-top:30px;border-top:1px solid var(--line)}.criteria-heading h3{font-size:26px;margin-top:10px}.story-criteria dl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:35px;margin:24px 0 0}.story-criteria dl>div{border-left:2px solid var(--purple);padding-left:16px}.story-criteria dt{font:500 17px 'Space Grotesk';letter-spacing:-.3px}.story-criteria dd{margin:9px 0 0;font-size:13px;line-height:1.8}@media(max-width:700px){.story-criteria{margin-top:35px}.story-criteria dl{grid-template-columns:1fr;gap:22px}.criteria-heading h3{font-size:24px}}
