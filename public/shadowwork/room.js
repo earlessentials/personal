@@ -54,3 +54,8 @@ $('#moodPanel').addEventListener('cancel',e=>{e.preventDefault();dismissMood()})
 $('#moodPanel').addEventListener('close',()=>document.body.classList.remove('mood-open'));
 $('#moodPanel').addEventListener('click',e=>{if(e.target!==e.currentTarget)return;const r=e.currentTarget.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dismissMood()});
 document.querySelectorAll('[data-language]').forEach(b=>b.onclick=()=>setLanguage(b.dataset.language));
+
+$('#safeguardBtn').onclick=()=>{$('#safeguardDialog').showModal();document.body.classList.add('safeguard-open')};
+$('#closeSafeguard').onclick=()=>$('#safeguardDialog').close();
+$('#safeguardDialog').addEventListener('close',()=>document.body.classList.remove('safeguard-open'));
+$('#safeguardDialog').addEventListener('click',e=>{if(e.target!==e.currentTarget)return;const r=e.currentTarget.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.currentTarget.close()});

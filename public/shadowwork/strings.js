@@ -101,7 +101,20 @@ const UI = {
     "moreFrom": "A little more from Pearling",
     "privateInvite": "Stay curious. Explore Private Matter.",
     "feedbackTitle": "Thoughts, feelings, feedback?",
-    "feedbackCopy": "I'd love to hear from you."
+    "feedbackCopy": "I'd love to hear from you.",
+    "introHeading": "Meet the parts of yourself you rarely make room for.",
+    "introCopy": "A guided experience of questions and small exercises that invite you to notice your patterns, contradictions, and unspoken needs.",
+    "introChoice": "There are no right answers. You can skip anything, change direction, or leave whenever you choose.",
+    "safeguardTitle": "Privacy & Emotional Safeguard",
+    "safeguardPrivacyTitle": "Your privacy",
+    "safeguardPrivacy": "Your name is used for your greeting in this page session. RAW does not send it to a server or save it for your next visit. Your language preference and the IDs of cards you keep are saved in this browser. You can remove them by clearing this site’s browser storage.",
+    "safeguardReflection": "Your reflections stay with you: RAW has no field for recording or submitting your answers. The app has no analytics trackers. The hosting provider may process routine request data to serve the website. If you email Pearling, the message you choose to send is shared through your email service.",
+    "safeguardPaceTitle": "Your pace, your choice",
+    "safeguardPace": "There are no right answers. You can skip a card, change the mood, adapt an exercise, or leave whenever you choose. Share only what feels comfortable. Any exercise involving another person needs their freely given, ongoing agreement.",
+    "safeguardCareTitle": "Make room for care",
+    "safeguardCare": "Some prompts may bring up strong feelings. Pause whenever you need to, reconnect with your surroundings, and reach out to someone you trust if you want support. RAW is a self-reflection experience. For personal mental health care, seek support from a qualified professional.",
+    "safeguardTogetherTitle": "When you share the experience",
+    "safeguardTogether": "Respect each person’s boundaries and their choice to pass. Keep personal stories shared in the room private. Ask before touching, recording, photographing, or sharing anything about someone else’s experience."
   },
   "id": {
     "how": "Cara main",
@@ -205,6 +218,19 @@ const UI = {
     "moreFrom": "Sedikit lagi dari Pearling",
     "privateInvite": "Masih penasaran? Mampir ke Private Matter.",
     "feedbackTitle": "Ada cerita, pikiran, atau masukan?",
-    "feedbackCopy": "Aku pengin denger dari kamu."
+    "feedbackCopy": "Aku pengin denger dari kamu.",
+    "introHeading": "Kenalan sama sisi dirimu yang jarang kamu kasih ruang.",
+    "introCopy": "Pengalaman dengan pertanyaan dan latihan kecil yang ngajak kamu melihat pola, kontradiksi, dan kebutuhan yang belum sempat kamu ungkapin.",
+    "introChoice": "Nggak ada jawaban yang paling benar. Kamu bebas skip, ganti arah, atau berhenti kapan pun kamu mau.",
+    "safeguardTitle": "Privasi & kenyamanan emosional",
+    "safeguardPrivacyTitle": "Soal privasi kamu",
+    "safeguardPrivacy": "Nama kamu dipakai buat sapaan selama halaman ini terbuka. RAW nggak mengirimnya ke server atau menyimpannya buat kunjungan berikutnya. Pilihan bahasa dan ID kartu yang kamu simpan tersimpan di browser ini. Kamu bisa menghapusnya lewat pengaturan penyimpanan situs di browser.",
+    "safeguardReflection": "Refleksi kamu tetap punya kamu: RAW nggak menyediakan kolom buat merekam atau mengirim jawaban. Aplikasi ini nggak memakai pelacak analytics. Penyedia hosting bisa memproses data permintaan biasa buat menampilkan website. Kalau kamu email Pearling, pesan yang kamu pilih buat dikirim akan lewat layanan email kamu.",
+    "safeguardPaceTitle": "Ritmenya kamu yang pilih",
+    "safeguardPace": "Nggak ada jawaban yang paling benar. Kamu bebas skip kartu, ganti vibes, menyesuaikan latihan, atau keluar kapan pun kamu mau. Cerita sebatas yang terasa nyaman. Latihan yang melibatkan orang lain perlu persetujuan mereka, dan mereka bebas berubah pikiran kapan saja.",
+    "safeguardCareTitle": "Kasih ruang buat jaga diri",
+    "safeguardCare": "Beberapa pertanyaan bisa bikin perasaan yang kuat muncul. Kamu boleh pause, rasain lagi suasana di sekitarmu, dan hubungi orang yang kamu percaya kalau ingin ditemani. RAW adalah pengalaman refleksi diri. Untuk perawatan kesehatan mental yang sesuai kebutuhan kamu, cari dukungan dari tenaga profesional yang berkualifikasi.",
+    "safeguardTogetherTitle": "Kalau main bareng",
+    "safeguardTogether": "Hargai batasan dan pilihan setiap orang buat skip. Jaga cerita pribadi yang dibagikan di sini. Minta izin sebelum menyentuh, merekam, memotret, atau membagikan pengalaman orang lain."
   }
 };
