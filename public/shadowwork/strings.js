@@ -114,7 +114,11 @@ const UI = {
     "safeguardCareTitle": "Make room for care",
     "safeguardCare": "Some prompts may bring up strong feelings. Pause whenever you need to, reconnect with your surroundings, and reach out to someone you trust if you want support. RAW is a self-reflection experience. For personal mental health care, seek support from a qualified professional.",
     "safeguardTogetherTitle": "When you share the experience",
-    "safeguardTogether": "Respect each person’s boundaries and their choice to pass. Keep personal stories shared in the room private. Ask before touching, recording, photographing, or sharing anything about someone else’s experience."
+    "safeguardTogether": "Respect each person’s boundaries and their choice to pass. Keep personal stories shared in the room private. Ask before touching, recording, photographing, or sharing anything about someone else’s experience.",
+    "gateInvitation": "An invitation, just for you.",
+    "gateLabel": "Your password",
+    "gateError": "That password didn’t open the door. Try again.",
+    "gateUnlock": "Unlock the experience"
   },
   "id": {
     "how": "Cara main",
@@ -231,6 +235,10 @@ const UI = {
     "safeguardCareTitle": "Kasih ruang buat jaga diri",
     "safeguardCare": "Beberapa pertanyaan bisa bikin perasaan yang kuat muncul. Kamu boleh pause, rasain lagi suasana di sekitarmu, dan hubungi orang yang kamu percaya kalau ingin ditemani. RAW adalah pengalaman refleksi diri. Untuk perawatan kesehatan mental yang sesuai kebutuhan kamu, cari dukungan dari tenaga profesional yang berkualifikasi.",
     "safeguardTogetherTitle": "Kalau main bareng",
-    "safeguardTogether": "Hargai batasan dan pilihan setiap orang buat skip. Jaga cerita pribadi yang dibagikan di sini. Minta izin sebelum menyentuh, merekam, memotret, atau membagikan pengalaman orang lain."
+    "safeguardTogether": "Hargai batasan dan pilihan setiap orang buat skip. Jaga cerita pribadi yang dibagikan di sini. Minta izin sebelum menyentuh, merekam, memotret, atau membagikan pengalaman orang lain.",
+    "gateInvitation": "Undangan kecil, khusus buat kamu.",
+    "gateLabel": "Password kamu",
+    "gateError": "Password-nya belum pas. Coba lagi, ya.",
+    "gateUnlock": "Buka experience-nya"
   }
 };

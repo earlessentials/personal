@@ -59,3 +59,8 @@ $('#safeguardBtn').onclick=()=>{$('#safeguardDialog').showModal();document.body.
 $('#closeSafeguard').onclick=()=>$('#safeguardDialog').close();
 $('#safeguardDialog').addEventListener('close',()=>document.body.classList.remove('safeguard-open'));
 $('#safeguardDialog').addEventListener('click',e=>{if(e.target!==e.currentTarget)return;const r=e.currentTarget.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)e.currentTarget.close()});
+
+function unlockExperience(focus=true){$('#accessGate').hidden=true;$('#experience').hidden=false;$('#experience').inert=false;document.body.classList.remove('access-locked');if(focus){scrollTop();if(view==='letter')$('#letterTitle').focus({preventScroll:true});else $('#openMood').focus({preventScroll:true})}}
+$('#accessForm').onsubmit=async e=>{e.preventDefault();const input=$('#accessPassword'),button=$('#unlockGate');button.disabled=true;try{const bytes=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(input.value));const hash=Array.from(new Uint8Array(bytes),b=>b.toString(16).padStart(2,'0')).join('');if(hash==='0a6bc32fd520745189bd342933fb6d080be4667a85742bb6991e411115947ae4'){try{sessionStorage.setItem('raw-access-v1','unlocked')}catch{}input.value='';$('#gateError').hidden=true;unlockExperience()}else{$('#gateError').hidden=false;input.value='';input.focus()}}finally{button.disabled=false}};
+$('#accessPassword').addEventListener('input',()=>$('#gateError').hidden=true);
+try{if(sessionStorage.getItem('raw-access-v1')==='unlocked')unlockExperience(false)}catch{}
