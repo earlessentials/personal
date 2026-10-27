@@ -1,0 +1,872 @@
+[
+  {
+    "id": "masterclasses",
+    "title": "My overthinking now comes with a ticket price.",
+    "category": "Experiences",
+    "label": "Independent masterclasses",
+    "cover": "masterclasses.svg",
+    "summary": "Three independently created masterclasses turned original personal-development frameworks into live experiences and recorded products people chose to pay for.",
+    "role": "Concept development, curriculum, creative direction, organic marketing & live facilitation",
+    "results": [
+      [
+        "400+",
+        "Paid registrations & recording purchases"
+      ],
+      [
+        "3",
+        "Original masterclasses"
+      ],
+      [
+        "100%",
+        "Organic content marketing"
+      ]
+    ],
+    "links": [],
+    "assets": [
+      "image-043.png",
+      "image-044.png",
+      "image-045.png"
+    ],
+    "process": "I developed the concepts and curriculum, shaped the visual identity, marketed each event through organic content, and facilitated the live sessions. The recordings then became standalone products, extending each event beyond its original date.",
+    "decisions": "The events were built around original frameworks so participants could work through complex psychological and philosophical ideas rather than simply hear about them. Educational social content established the concepts before registration, and the recordings gave each event a useful life after the live session.",
+    "outcomes": [
+      "The Season of Self drew 80+ live participants and 200+ additional recording purchases.",
+      "Sovereign Mind Intensive secured 40+ participants and 57 additional recording sales.",
+      "Feral & Fallow: Between Selves attracted 30+ live participants, with recordings later offered separately."
+    ],
+    "assetInfo": [
+      {
+        "src": "image-043.png",
+        "width": 640,
+        "height": 800
+      },
+      {
+        "src": "image-044.png",
+        "width": 640,
+        "height": 800
+      },
+      {
+        "src": "image-045.png",
+        "width": 640,
+        "height": 800
+      }
+    ]
+  },
+  {
+    "id": "digital-products",
+    "title": "Apparently, people will pay for the contents of my brain.",
+    "category": "Products",
+    "label": "Digital products & e-commerce",
+    "cover": "digital-products.svg",
+    "summary": "I built a creator-led product ecosystem spanning educational e-books, experiential workbooks, audio, templates, and recorded classes.",
+    "role": "Product strategy, research, instructional design, branding, pricing & e-commerce",
+    "results": [
+      [
+        "10+",
+        "Paid digital products"
+      ],
+      [
+        "3,000+",
+        "Cumulative digital product sales"
+      ]
+    ],
+    "links": [
+      [
+        "Explore Pearling",
+        "https://lynk.id/pearling"
+      ],
+      [
+        "Explore Hey Pearling",
+        "https://lynk.id/heypearling"
+      ]
+    ],
+    "assets": [
+      "pearling-store.png",
+      "heypearling-store.png",
+      "product-03.webp",
+      "product-04.webp",
+      "product-05.webp",
+      "product-07.webp",
+      "product-08.webp",
+      "product-17.webp",
+      "product-18.webp",
+      "product-25.webp",
+      "product-30.webp",
+      "product-35.webp",
+      "product-38.webp",
+      "product-41.webp",
+      "product-42.webp",
+      "product-43.webp",
+      "product-44.webp",
+      "product-45.webp",
+      "product-46.webp",
+      "product-47.jpg",
+      "lifetime-orders-050.svg",
+      "lifetime-orders-051.svg"
+    ],
+    "process": "I handled the full lifecycle: audience research, concept development, instructional design, visual branding, pricing, storefront management, and ongoing promotion. Different formats and price points gave people more than one way into the work.",
+    "decisions": "Audience questions informed the product concepts, while different formats and price points made the collection useful for different kinds of learners. Research, instructional design, pricing, storefront management, and post-launch refinement were handled as parts of one connected product system.",
+    "outcomes": [
+      "The portfolio grew to 10+ paid products and 3,000+ cumulative digital product sales.",
+      "The catalog spans e-books, experiential workbooks, productivity systems, templates, audio experiences, and recorded classes.",
+      "Organic educational content connected audience interests with products at different formats and price points."
+    ],
+    "assetInfo": [
+      {
+        "src": "pearling-store.png",
+        "width": 855,
+        "height": 738,
+        "caption": "@pearling storefront",
+        "kind": "storefront"
+      },
+      {
+        "src": "heypearling-store.png",
+        "width": 1280,
+        "height": 720,
+        "caption": "@heypearling storefront",
+        "kind": "storefront"
+      },
+      {
+        "src": "product-03.webp",
+        "width": 1024,
+        "height": 1024,
+        "caption": "CHRONOS E-BOOK + EXPERIENCE"
+      },
+      {
+        "src": "product-04.webp",
+        "width": 1024,
+        "height": 1024,
+        "caption": "THE LIVING PARADOX E-BOOK"
+      },
+      {
+        "src": "product-05.webp",
+        "width": 1024,
+        "height": 1024,
+        "caption": "NARRATIVE MAPPING: Rewrite Your Core Story Experience Book"
+      },
+      {
+        "src": "product-07.webp",
+        "width": 1024,
+        "height": 1024,
+        "caption": "The Year Your Soul Fought Back Experience Book"
+      },
+      {
+        "src": "product-08.webp",
+        "width": 1024,
+        "height": 1024,
+        "caption": "Neural Reset Series: A 4-Phase Sonic Rewiring Protocol (4 Audio + Guidebook)"
+      },
+      {
+        "src": "product-17.webp",
+        "width": 1024,
+        "height": 1024,
+        "caption": "2-Stage Sovereign Mind Intensive (External & Internal Sovereignty)"
+      },
+      {
+        "src": "product-18.webp",
+        "width": 1024,
+        "height": 1024,
+        "caption": "The Season of Self Masterclass"
+      },
+      {
+        "src": "product-25.webp",
+        "width": 1024,
+        "height": 1024,
+        "caption": "RAW: WORDS & WORKS"
+      },
+      {
+        "src": "product-30.webp",
+        "width": 1024,
+        "height": 1024,
+        "caption": "Living From the Liminal"
+      },
+      {
+        "src": "product-35.webp",
+        "width": 1024,
+        "height": 1024,
+        "caption": "Feral & Fallow: Between Selves"
+      },
+      {
+        "src": "product-38.webp",
+        "width": 1024,
+        "height": 1024,
+        "caption": "BECOMING HUMAN AGAIN (21 Module + Libraries + Vaults)"
+      },
+      {
+        "src": "product-41.webp",
+        "width": 1024,
+        "height": 1024,
+        "caption": "ROOTED: SELF-TRUST and WORTH REPAIR PLAYBOOK"
+      },
+      {
+        "src": "product-42.webp",
+        "width": 1024,
+        "height": 1024,
+        "caption": "Self-Sabotage Survival Playbook"
+      },
+      {
+        "src": "product-43.webp",
+        "width": 1024,
+        "height": 1024,
+        "caption": "The Identity Shift Playbook"
+      },
+      {
+        "src": "product-44.webp",
+        "width": 1024,
+        "height": 1024,
+        "caption": "The Echoes Workbook"
+      },
+      {
+        "src": "product-45.webp",
+        "width": 1024,
+        "height": 1024,
+        "caption": "The Mirror System V1.0"
+      },
+      {
+        "src": "product-46.webp",
+        "width": 1024,
+        "height": 1024,
+        "caption": "Paradox Chamber GPT"
+      },
+      {
+        "src": "product-47.jpg",
+        "width": 1024,
+        "height": 1024,
+        "caption": "Energy Reset Planner"
+      },
+      {
+        "src": "lifetime-orders-050.svg",
+        "width": 267,
+        "height": 85,
+        "caption": "Lifetime orders",
+        "kind": "orders"
+      },
+      {
+        "src": "lifetime-orders-051.svg",
+        "width": 263,
+        "height": 85,
+        "caption": "Lifetime orders",
+        "kind": "orders"
+      }
+    ]
+  },
+  {
+    "id": "pearls-cove",
+    "title": "I gave my portfolio enough lore to need its own map.",
+    "category": "Digital",
+    "label": "Pearl’s Cove · experiential website",
+    "cover": "pearls-cove.svg",
+    "summary": "I built an ocean-inspired personal website that turns five different disciplines into worlds people can explore.",
+    "role": "Creative direction, narrative architecture, UX/UI & AI-assisted development",
+    "results": [
+      [
+        "5",
+        "Thematic digital worlds"
+      ],
+      [
+        "1",
+        "Independently developed website"
+      ]
+    ],
+    "links": [
+      [
+        "Visit Pearl’s Cove",
+        "https://www.pearlinglim.com/"
+      ]
+    ],
+    "assets": [
+      "image-052.png"
+    ],
+    "process": "I mapped the narrative, visitor journeys, information architecture, and interactions, then directed the AI-assisted implementation through repeated prototypes and refinement. The Thinker, Strategist, Builder, Storyteller, and Explorer became distinct ways into the same body of work.",
+    "decisions": "A conventional linear portfolio would have flattened the different disciplines into a list. The five-world structure gave each discipline a distinct setting while keeping the work connected through shared navigation, original frameworks, and a coherent personal identity.",
+    "outcomes": [
+      "Pearl’s Cove launched as an independently developed, exploration-driven personal website.",
+      "Five interconnected worlds organize the work around The Thinker, The Strategist, The Builder, The Storyteller, and The Explorer.",
+      "The experience brings portfolio work, original frameworks, interactive tools, and collaboration routes into one navigable website."
+    ],
+    "assetInfo": [
+      {
+        "src": "image-052.png",
+        "width": 800,
+        "height": 520
+      }
+    ]
+  },
+  {
+    "id": "experiential",
+    "title": "I made self-reflection break the fourth wall.",
+    "category": "Experiences",
+    "label": "Interactive learning & product design",
+    "cover": "experiential.svg",
+    "summary": "Three original experiences that put self-awareness, storytelling, and perspective into the participant’s hands.",
+    "role": "Original frameworks, experience design, interactive storytelling & digital implementation",
+    "results": [
+      [
+        "3",
+        "Original experiential products"
+      ],
+      [
+        "9",
+        "Storytelling angles in Possible Stories"
+      ]
+    ],
+    "links": [
+      [
+        "Possible Stories",
+        "https://pearlinglim.com/possiblestories/"
+      ],
+      [
+        "The Shadow Work Experience",
+        "https://www.pearlinglim.com/shadowwork"
+      ],
+      [
+        "The Mirror System",
+        "https://lynk.id/pearling/kov13g2k0jeg"
+      ]
+    ],
+    "assets": [
+      "image-055.png",
+      "image-056.webp",
+      "image-057.webp"
+    ],
+    "process": "I translated psychological, philosophical, and strategic concepts into reflective prompts, guided discovery, and interactive exercises. Each product had its own framework, visual direction, user journey, and route to digital distribution.",
+    "decisions": "The experience begins with a problem people can recognize, then gives them prompts, scenarios, or exercises that let them investigate it for themselves. The conceptual research, interaction design, visual direction, and distribution were developed around that active role for the participant.",
+    "outcomes": [
+      "The Shadow Work Experience uses reflective challenges and creative exercises to explore emotional patterns and personal identity.",
+      "Possible Stories guides users through three discovery stages to find nine potential storytelling angles in everyday experiences.",
+      "The Mirror System V1.0 turns assumptions and familiar interpretations into material for a perspective-changing experience."
+    ],
+    "assetInfo": [
+      {
+        "src": "image-055.png",
+        "width": 800,
+        "height": 520
+      },
+      {
+        "src": "image-056.webp",
+        "width": 800,
+        "height": 520
+      },
+      {
+        "src": "image-057.webp",
+        "width": 800,
+        "height": 520
+      }
+    ]
+  },
+  {
+    "id": "publishing",
+    "title": "Ghostwriting is the only kind of ghosting I recommend.",
+    "category": "Writing",
+    "label": "Newsletters & independent publishing",
+    "cover": "publishing.svg",
+    "summary": "I managed four editorial identities across client newsletters, an independently owned newsletter, and a paid publication.",
+    "role": "Editorial strategy, ghostwriting, research, email marketing & paid publishing",
+    "results": [
+      [
+        "4",
+        "Digital publications"
+      ],
+      [
+        "2",
+        "Client newsletters"
+      ]
+    ],
+    "links": [
+      [
+        "Read Story Empowers",
+        "https://www.storyempowers.com/"
+      ],
+      [
+        "Explore Private Matter",
+        "https://www.pearlinglim.com/privatematter"
+      ]
+    ],
+    "assets": [
+      "image-053.png",
+      "image-054.webp"
+    ],
+    "process": "I managed research, editorial calendars, writing, editing, formatting, and publication. Client work required distinct voices and objectives; Story Empowers and Private Matter brought those same skills into independently owned media.",
+    "decisions": "The editorial process adapted to the audience and purpose of each publication instead of flattening four different brands into one voice. Research, topic selection, calendars, writing, editing, formatting, and publication formed the recurring workflow.",
+    "outcomes": [
+      "Two client newsletters required distinct voices, audiences, and editorial objectives.",
+      "Story Empowers became an independently owned newsletter covering branding, business strategy, marketing, and professional development.",
+      "Private Matter extended the publishing work into exclusive, paid long-form editorial."
+    ],
+    "assetInfo": [
+      {
+        "src": "image-053.png",
+        "width": 800,
+        "height": 520
+      },
+      {
+        "src": "image-054.webp",
+        "width": 800,
+        "height": 520
+      }
+    ]
+  },
+  {
+    "id": "narc",
+    "title": "I turned a shared ambition into a 4,000-person community.",
+    "category": "Strategy",
+    "label": "Narc Executive · brand & community",
+    "cover": "narc.svg",
+    "summary": "A business and economics brand that grew into a community for people building something of their own.",
+    "role": "Brand strategy, visual rebranding & community building",
+    "results": [
+      [
+        "4,000+",
+        "Members across three communities"
+      ],
+      [
+        "10,000+",
+        "Attendees across eight events"
+      ],
+      [
+        "200+",
+        "Volunteers & ambassadors"
+      ]
+    ],
+    "links": [],
+    "assets": [
+      "image-006.webp",
+      "image-005.webp"
+    ],
+    "process": "I helped build the brand blueprint from the ground up: its purpose, values, personality, and community direction. A later visual rebrand refreshed the social identity while keeping the underlying positioning intact.",
+    "decisions": "The brand blueprint established its purpose, values, and personality before the visual refresh. The later rebrand changed the social identity while retaining the underlying commitment to empowerment, entrepreneurship, leadership, and competency.",
+    "outcomes": [
+      "The community reached 4,000+ members across three communities.",
+      "Eight events attracted more than 10,000 attendees in total.",
+      "More than 200 volunteers and ambassadors supported the brand’s mission of business and economics-based education."
+    ],
+    "assetInfo": [
+      {
+        "src": "image-006.webp",
+        "width": 369,
+        "height": 799
+      },
+      {
+        "src": "image-005.webp",
+        "width": 369,
+        "height": 799
+      }
+    ]
+  },
+  {
+    "id": "never-settle",
+    "title": "I gave someone's range the press kit it deserved.",
+    "category": "Writing",
+    "label": "Mario Armstrong · Never Settle",
+    "cover": "never-settle.svg",
+    "summary": "Mario Armstrong’s stories, expertise, and speaking themes brought together in the Never Settle speaker press kit.",
+    "role": "Copywriting, narrative development & speaker positioning",
+    "results": [],
+    "links": [
+      [
+        "View writing sample",
+        "https://docs.google.com/document/d/1uGbFPUq75jwSATsTOfmFR_gp5KDaYKtJK-bQyJMz3Pc/edit?usp=sharing"
+      ]
+    ],
+    "assets": [
+      "image-013.png",
+      "image-014.webp",
+      "image-015.webp",
+      "image-016.png",
+      "image-017.jpg",
+      "image-018.png",
+      "image-019.webp"
+    ],
+    "process": "The kit connected personal narrative with speaking credentials and themes, giving event organizers a clear way to understand the person they were booking. The wider writing collection includes editorial, launch, email, and social copy.",
+    "decisions": "The kit needed to help an event organizer understand both the person and the professional offer. Personal narrative, credentials, speaking themes, and engagement history were brought into the same document so the pitch could do more than repeat a biography.",
+    "outcomes": [
+      "The Never Settle speaker kit brought Mario Armstrong’s personal stories, skills, speaking engagements, and presentation themes into one coherent pitch.",
+      "The wider writing collection includes an Executive Media blog, speaker profiles, a program launch, a welcome email, and social posts."
+    ],
+    "assetInfo": [
+      {
+        "src": "image-013.png",
+        "width": 1599,
+        "height": 1040
+      },
+      {
+        "src": "image-014.webp",
+        "width": 1599,
+        "height": 1040
+      },
+      {
+        "src": "image-015.webp",
+        "width": 1599,
+        "height": 1040
+      },
+      {
+        "src": "image-016.png",
+        "width": 1599,
+        "height": 1040
+      },
+      {
+        "src": "image-017.jpg",
+        "width": 962,
+        "height": 1599
+      },
+      {
+        "src": "image-018.png",
+        "width": 1599,
+        "height": 1040
+      },
+      {
+        "src": "image-019.webp",
+        "width": 800,
+        "height": 767
+      }
+    ]
+  },
+  {
+    "id": "personal-brand",
+    "title": "My interests required several sets of login details.",
+    "category": "Strategy",
+    "label": "Personal brand & platform growth",
+    "cover": "personal-brand.svg",
+    "summary": "I built distinct social presences for interests spanning business, personal development, education, everyday advice, and film and book reviews.",
+    "role": "Personal branding, audience strategy & social growth",
+    "results": [],
+    "links": [],
+    "assets": [
+      "image-008.jpg",
+      "image-009.jpg",
+      "image-010.webp",
+      "image-011.webp",
+      "image-012.jpg"
+    ],
+    "process": "I developed different accounts and platform-specific approaches for different audiences. The strategy followed each niche and platform rather than applying a single formula everywhere.",
+    "decisions": "The different accounts had different reasons to exist, so each needed its own platform and niche strategy. Keeping the audiences distinct allowed the content to follow the interest without forcing every subject into the same positioning.",
+    "outcomes": [
+      "Separate accounts supported business and personal development, education and everyday tips, and film and book reviews.",
+      "Different niches and platforms received their own content and growth approaches, with the account examples shown below."
+    ],
+    "assetInfo": [
+      {
+        "src": "image-008.jpg",
+        "width": 798,
+        "height": 336
+      },
+      {
+        "src": "image-009.jpg",
+        "width": 799,
+        "height": 342
+      },
+      {
+        "src": "image-010.webp",
+        "width": 798,
+        "height": 445
+      },
+      {
+        "src": "image-011.webp",
+        "width": 799,
+        "height": 559
+      },
+      {
+        "src": "image-012.jpg",
+        "width": 800,
+        "height": 364
+      }
+    ]
+  },
+  {
+    "id": "arkademi",
+    "title": "I gave brands a reason to interrupt the scroll.",
+    "category": "Content",
+    "label": "Brand Collaborations",
+    "cover": "arkademi.svg",
+    "summary": "I created branded content for Arkademi, Scarlett, Studypool, Expert Slides, Hexomatic, TidyCal, Grammarly, Stockbit, YesStyle, and Zipmex.",
+    "role": "Content creation, brand collaboration & social storytelling",
+    "results": [
+      [
+        "3",
+        "Arkademi collaborations"
+      ],
+      [
+        "300+",
+        "New downloads"
+      ]
+    ],
+    "links": [
+      [
+        "Watch the Arkademi collaboration",
+        "https://www.instagram.com/reel/CgIwIyeAWAW/"
+      ]
+    ],
+    "assets": [
+      "image-020.jpg",
+      "image-021.png",
+      "image-022.png",
+      "image-023.png",
+      "image-024.png",
+      "image-025.png",
+      "image-026.webp",
+      "image-027.webp",
+      "image-028.png",
+      "image-029.png",
+      "image-030.png",
+      "image-031.webp"
+    ],
+    "process": "I shaped brand messages into audience-facing stories across education, beauty, productivity software, finance, and lifestyle, with each collaboration giving people a clear reason to pay attention and a relevant next step.",
+    "decisions": "Each collaboration needed to fit both the brand and the audience, so I connected the product’s value with a story suited to the platform. Arkademi provides one measurable example: three collaborations in a year generated approximately 300 new downloads.",
+    "outcomes": [
+      "The collection includes Arkademi, Scarlett, Studypool, Expert Slides, Hexomatic, TidyCal, Grammarly, Stockbit, YesStyle, and Zipmex.",
+      "Three Arkademi collaborations within one year generated approximately 300 new downloads."
+    ],
+    "assetInfo": [
+      {
+        "src": "image-020.jpg",
+        "width": 369,
+        "height": 799,
+        "caption": "Arkademi collaboration"
+      },
+      {
+        "src": "image-021.png",
+        "width": 200,
+        "height": 200,
+        "caption": "Arkademi",
+        "kind": "brand"
+      },
+      {
+        "src": "image-022.png",
+        "width": 199,
+        "height": 200,
+        "caption": "Scarlett",
+        "kind": "brand"
+      },
+      {
+        "src": "image-023.png",
+        "width": 797,
+        "height": 211,
+        "caption": "Studypool",
+        "kind": "brand"
+      },
+      {
+        "src": "image-024.png",
+        "width": 796,
+        "height": 189,
+        "caption": "Expert Slides",
+        "kind": "brand-inverse"
+      },
+      {
+        "src": "image-025.png",
+        "width": 200,
+        "height": 200,
+        "caption": "Hexomatic",
+        "kind": "brand"
+      },
+      {
+        "src": "image-026.webp",
+        "width": 476,
+        "height": 106,
+        "caption": "TidyCal",
+        "kind": "brand"
+      },
+      {
+        "src": "image-027.webp",
+        "width": 759,
+        "height": 427,
+        "caption": "Grammarly",
+        "kind": "brand"
+      },
+      {
+        "src": "image-028.png",
+        "width": 800,
+        "height": 312,
+        "caption": "Stockbit",
+        "kind": "brand"
+      },
+      {
+        "src": "image-029.png",
+        "width": 225,
+        "height": 225,
+        "caption": "YesStyle",
+        "kind": "brand"
+      },
+      {
+        "src": "image-030.png",
+        "width": 800,
+        "height": 420,
+        "caption": "Zipmex",
+        "kind": "brand"
+      },
+      {
+        "src": "image-031.webp",
+        "width": 369,
+        "height": 799,
+        "caption": "Branded content in the portfolio"
+      }
+    ]
+  },
+  {
+    "id": "nft",
+    "title": "I started the event a month before anyone showed up.",
+    "category": "Content",
+    "label": "NFT events · content management",
+    "cover": "nft.svg",
+    "summary": "A 30-day content plan that gave an NFT event a story before the event began.",
+    "role": "Content strategy, editorial planning & community development",
+    "results": [
+      [
+        "30",
+        "Days of planned event content"
+      ]
+    ],
+    "links": [],
+    "assets": [
+      "image-032.png"
+    ],
+    "process": "I planned a mix of Reels, guides, posts, and carousels to introduce the topic, speakers, and event. Pre-event Twitter community building supported the wider content plan.",
+    "decisions": "The audience needed an entry point into the subject before it could care about the event. The plan therefore mixed foundational NFT education with speaker introductions, varied content formats, and pre-event community building.",
+    "outcomes": [
+      "The 30-day event plan combined NFT education, speaker introductions, and event promotion.",
+      "Reels, guides, posts, and carousels gave the audience several ways to engage before the event.",
+      "Pre-event community development on Twitter supported the wider content plan."
+    ],
+    "assetInfo": [
+      {
+        "src": "image-032.png",
+        "width": 1599,
+        "height": 1040
+      }
+    ]
+  },
+  {
+    "id": "social",
+    "title": "I gave the algorithm a strategy and the audience a reason to stay.",
+    "category": "Content",
+    "label": "Social media management",
+    "cover": "social.svg",
+    "summary": "Social profiles across different niches, managed around growth, useful leads, and stronger community connections.",
+    "role": "Social strategy, content management & community engagement",
+    "results": [],
+    "links": [],
+    "assets": [
+      "image-033.png",
+      "image-034.png",
+      "image-035.webp",
+      "image-036.jpg"
+    ],
+    "process": "I worked across accounts with different subjects and audiences, combining content management with the platform-specific thinking needed to support each community.",
+    "decisions": "Each profile required content that suited its audience rather than a shared stream of interchangeable posts. Management combined platform-specific planning with the ongoing work of giving people a reason to engage with the account.",
+    "outcomes": [
+      "Multiple social profiles were managed across different niches with an emphasis on growth, lead generation, and community engagement.",
+      "The account examples below show the different audiences and subjects the work needed to serve."
+    ],
+    "assetInfo": [
+      {
+        "src": "image-033.png",
+        "width": 739,
+        "height": 1599
+      },
+      {
+        "src": "image-034.png",
+        "width": 739,
+        "height": 1599
+      },
+      {
+        "src": "image-035.webp",
+        "width": 739,
+        "height": 1599
+      },
+      {
+        "src": "image-036.jpg",
+        "width": 799,
+        "height": 493
+      }
+    ]
+  },
+  {
+    "id": "contributify",
+    "title": "English class came with a scholarship plot twist.",
+    "category": "Experiences",
+    "label": "Contributify · language bootcamps",
+    "cover": "contributify.svg",
+    "summary": "Language bootcamps designed to connect underprivileged Indonesian students with global opportunities.",
+    "role": "Event marketing, partnerships & participant acquisition",
+    "results": [
+      [
+        "180+",
+        "Participants across three bootcamps"
+      ],
+      [
+        "3",
+        "Bootcamps hosted in 2021"
+      ]
+    ],
+    "links": [],
+    "assets": [
+      "image-039.webp",
+      "image-040.jpg",
+      "image-041.jpg"
+    ],
+    "process": "I combined Instagram and TikTok promotion with event partnerships and scholarship opportunities. Three bootcamps in 2021 brought together more than 180 participants; one participant received a partial scholarship through the University of Western Australia partnership.",
+    "decisions": "The bootcamps connected language learning with a practical reason to participate in global opportunities. Social promotion and event partnerships brought the learning offer and scholarship opportunities into the same campaign.",
+    "outcomes": [
+      "Three bootcamps in 2021 brought together more than 180 participants.",
+      "Instagram, TikTok, event partners, and scholarship opportunities formed the promotion strategy.",
+      "One participant received a partial scholarship through the University of Western Australia partnership."
+    ],
+    "assetInfo": [
+      {
+        "src": "image-039.webp",
+        "width": 800,
+        "height": 785
+      },
+      {
+        "src": "image-040.jpg",
+        "width": 799,
+        "height": 787
+      },
+      {
+        "src": "image-041.jpg",
+        "width": 795,
+        "height": 799
+      }
+    ]
+  },
+  {
+    "id": "summit",
+    "title": "We gave “someday” a calendar invite.",
+    "category": "Experiences",
+    "label": "21st Century Business Summit",
+    "cover": "summit.svg",
+    "summary": "I led a business summit that brought speakers from healthcare, professional services, and technology to an audience of aspiring builders.",
+    "role": "Project leadership, event planning & integrated marketing",
+    "results": [
+      [
+        "2,500+",
+        "Pre-summit participants"
+      ],
+      [
+        "350",
+        "Summit attendees, approximately"
+      ],
+      [
+        "73%",
+        "Participant satisfaction"
+      ]
+    ],
+    "links": [],
+    "assets": [
+      "image-042.jpg"
+    ],
+    "process": "As project leader, I created the marketing plan and coordinated an event built within a three-week planning window. A pre-summit session, TikTok, Reels, and influencer partnerships brought people into the conversation.",
+    "decisions": "The short planning window required the promotion and event experience to work as one campaign. A pre-summit session gave people a first encounter with the subject before the summit, while social video and influencer partnerships supported acquisition.",
+    "outcomes": [
+      "The pre-summit event attracted more than 2,500 participants.",
+      "Approximately 350 people attended the summit, with a reported 73% overall participant satisfaction rate.",
+      "The three-week plan combined TikTok, Reels, influencer partnerships, and a pre-event program featuring speakers from healthcare, professional services, and technology."
+    ],
+    "assetInfo": [
+      {
+        "src": "image-042.jpg",
+        "width": 1242,
+        "height": 1537
+      }
+    ]
+  }
+]
