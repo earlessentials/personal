@@ -2,10 +2,12 @@
 
 An original, responsive personal-brand world built with Next.js, React, TypeScript, SVG, and CSS animation. The supplied `Sea.mp4` is used as the living water layer; all shells, oysters, the compass, turtle, bottle, and pearls are original temporary SVG illustrations.
 
+This is a website repository, not an installable AI agent skill. See [SECURITY_REVIEW.md](SECURITY_REVIEW.md) for the review of the AI Skill Shield report and the dependency fixes.
+
 ## Run locally
 
 ```bash
-npm install
+npm ci --ignore-scripts
 npm run dev
 ```
 
@@ -15,12 +17,12 @@ Open [http://localhost:3000](http://localhost:3000).
 
 This repository is prepared for GitHub Pages under a public repository named `personal`.
 
-Pushing to the `main` branch runs `.github/workflows/deploy.yml`, builds the static export with the `/personal` base path, and publishes the `out/` folder to GitHub Pages.
+Pushing to the `main` branch runs `.github/workflows/deploy.yml`, installs the locked dependencies with lifecycle scripts disabled, builds the static export at the domain root, and publishes the `out/` folder to GitHub Pages.
 
 Expected public URL:
 
 ```text
-https://<your-github-username>.github.io/personal/
+https://pearlinglim.com/
 ```
 
 ## Edit the content
@@ -51,8 +53,8 @@ The map is the primary navigation. The compass is a complete keyboard-accessible
 
 ## Contact and launch checklist
 
-The contact and collaboration forms validate required fields, compose a complete email, and open the visitor's email app with the message addressed to `pearling@storyempowers.com`. The visitor still needs to press Send in their email app.
+The contact and collaboration forms validate required fields and POST the visitor's submitted fields to FormSubmit, addressed to the public contact email in `content/site.ts`. The `_next` field is a public return URL ending in `/thanks/`, configured by `NEXT_PUBLIC_SITE_URL`. It is not a secret. The forms do not enumerate or submit private environment variables.
 
-If you want direct website-to-inbox sending without opening the visitor's email app, connect a backend or form provider such as Formspree, Basin, Getform, EmailJS, or a serverless email function. Do not commit SMTP passwords, API keys, or provider secrets to a public repository.
+FormSubmit may require one-time activation by the recipient. Do not commit SMTP passwords, API keys, or provider secrets to a public repository.
 
 Before launch: optimize the video, provide a real Open Graph image, update the production domain in `app/layout.tsx`, `app/sitemap.ts`, and `app/robots.ts`, run automated accessibility checks, and test keyboard and touch interactions on target devices.

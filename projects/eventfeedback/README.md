@@ -6,7 +6,7 @@ The standalone form preserves the English/Bahasa Indonesia experience without ch
 
 ## Rebuild
 
-Run `npm install` then `npm run build` in this directory. Commit both the source and generated `public/eventfeedback/` files.
+Run `npm ci --ignore-scripts` then `npm run build` in this directory. Commit both the source and generated `public/eventfeedback/` files. Rebuild the results project afterward: this build clears its parent output directory.
 
 ## Submission storage
 
