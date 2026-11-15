@@ -1,0 +1,82 @@
+(()=>{
+const id={
+'Shuffle & deal':'Kocok & ambil kartu','Language':'Bahasa',
+'A CONVERSATION WORTH HAVING':'OBROLAN YANG LAYAK DIJALANI',
+'An invitation, just for you.':'Sebuah undangan, khusus untuk kamu.',
+'Your password':'Kata sandi kamu','Show':'Tampilkan','Hide':'Sembunyikan','Unlock the experience':'Buka pengalaman ini','by Pearling':'oleh Pearling',
+'65 cards. No right answers.':'65 kartu. Tanpa jawaban benar.', 'How to play':'Cara bermain','A CONVERSATION GAME':'PERMAINAN UNTUK MEMULAI OBROLAN',
+'Skip the':'Lewati','small talk.':'basa-basi.','Get':'Kenali lebih','deep.':'dalam.',
+'Uncomfortable questions. Impossible choices.':'Pertanyaan yang mengusik. Pilihan yang serba sulit.',
+'The things you only discover when you ask.':'Ada hal yang baru kamu tahu setelah bertanya.',
+'Who’s playing?':'Siapa yang bermain?','For friends, partners, and curious minds.':'Untuk teman, pasangan, dan kamu yang ingin tahu.',
+'THE CONVERSATION DECK':'KARTU UNTUK MEMULAI OBROLAN','THE ANSWER REVEALS A CHOICE.':'JAWABAN MENUNJUKKAN PILIHAN.',
+'THE REASONING REVEALS THE PERSON.':'ALASAN MENGUNGKAP SIAPA DIRIMU.',
+'CHOOSE YOUR ANSWER. QUESTION YOUR REASONING.':'PILIH JAWABANMU. TELUSURI ALASANMU.',
+'A LITTLE DISCOMFORT. A DEEPER CONNECTION.':'SEDIKIT RASA TIDAK NYAMAN. HUBUNGAN YANG LEBIH DALAM.',
+'Leave room for a different answer.':'Beri ruang untuk jawaban yang berbeda.',
+'The answer is':'Jawaban itu','only the beginning.':'baru permulaan.',
+'What would':'Apa yang akan','you':'kamu','do?':'lakukan?',
+'ONE QUESTION.':'SATU PERTANYAAN.','A WHOLE CONVERSATION.':'SEBUAH OBROLAN YANG PANJANG.',
+'Touch to turn':'Sentuh untuk membuka','Same choice.':'Pilihan yang sama.','Different reasons.':'Alasan yang berbeda.',
+'Five ways to reason':'Lima sudut pandang','Turn the card':'Buka kartunya','Draw the next card':'Ambil kartu berikutnya',
+'Change players':'Ganti pemain','Back to the beginning':'Kembali ke awal',
+'Take turns. Say why. See what surprises you.':'Bergantian. Ceritakan alasanmu. Temukan hal yang mengejutkan.',
+'A little more from Pearling':'Sedikit lagi dari Pearling','Stay curious. Explore Private Matter.':'Tetap penasaran. Jelajahi Private Matter.',
+'Thoughts, feelings, feedback?':'Pikiran, perasaan, atau masukan?',"I'd love to hear from you.":'Aku ingin mendengar dari kamu.',
+'A conversation worth having.':'Obrolan yang layak dijalani.','A conversation worth having':'Obrolan yang layak dijalani',
+'Privacy policy':'Kebijakan privasi','© 2026 Pearling Lim. All Rights Reserved':'© 2026 Pearling Lim. Seluruh Hak Dilindungi.',
+'MAKE YOURSELF AT HOME':'SILAKAN BUAT DIRIMU NYAMAN','Close':'Tutup','Who’s':'Siapa yang','playing?':'bermain?',
+'A moment for you. A conversation for two. Or a whole table.':'Waktu untuk dirimu. Obrolan berdua. Atau bersama teman-teman.',
+'Your company':'Kamu bermain bersama siapa?','Solo':'Sendiri','Just me':'Aku sendiri','Partner':'Pasangan','Us two':'Kami berdua','Group':'Kelompok','Our circle':'Teman-teman kami',
+'Add another player':'Tambah pemain','Remove last player':'Hapus pemain terakhir','Let’s go deep':'Yuk, kenali lebih dalam',
+'Just for your welcome here. Names stay in this tab.':'Hanya untuk menyapamu di sini. Nama tersimpan sementara di tab ini.',
+'THE WAY IN':'CARA MEMULAI','The answer is only':'Jawaban itu baru','the':'sebuah','beginning.':'permulaan.',
+'Let the deck decide.':'Biarkan kartu yang menentukan.','Draw a random card. Turn it over when everyone is ready.':'Ambil kartu acak. Buka saat semua sudah siap.',
+'Make your choice. Tell them why.':'Tentukan pilihanmu. Ceritakan alasannya.',
+'Take turns sharing your answer and the reasoning behind it. You can question the premise, disagree, or change your mind.':'Bergantianlah berbagi jawaban dan alasan di baliknya. Kamu boleh mempertanyakan situasinya, berbeda pendapat, atau berubah pikiran.',
+'See it five different ways.':'Lihat dari lima sudut pandang.',
+'Open the five perspectives after talking it through. Finish with the deeper question, then draw again.':'Buka lima sudut pandang setelah kalian membahasnya. Akhiri dengan pertanyaan lanjutan, lalu ambil kartu lagi.',
+'Same question.':'Pertanyaan yang sama.','Different minds.':'Cara berpikir yang berbeda.',
+'These are five possible perspectives. Other ways of seeing the situation may emerge in your conversation.':'Ini lima sudut pandang yang mungkin dipertimbangkan. Sudut pandang lain bisa muncul dalam obrolan kamu.',
+'GO DEEPER':'GALI LEBIH DALAM','Did anyone change their mind?':'Ada yang berubah pikiran?','What surprised you about each other?':'Apa yang mengejutkan dari cara kalian berpikir?',
+'Back to the game':'Kembali ke permainan','PRIVACY POLICY':'KEBIJAKAN PRIVASI','Your conversation':'Obrolan ini','belongs to':'milik','you.':'kamu.',
+'Last updated: 15 November 2026':'Terakhir diperbarui: 15 November 2026',
+'E—— Deep! is a conversation game by Pearling Lim. Here is how this version of the website handles information.':'E—— Deep! adalah permainan percakapan karya Pearling Lim. Berikut cara versi situs ini menangani informasi.',
+'Your game session':'Sesi permainan kamu',
+'The game does not ask you to type your answers, record conversations, or save reflections. Your spoken answers are not collected by the game. The names you enter, your solo/partner/group choice, the card you are viewing, and the cards already drawn are held temporarily in this tab’s memory to personalize your welcome and avoid repeats. This game state resets when you reload or close the page.':'Permainan ini tidak memintamu mengetik jawaban, merekam percakapan, atau menyimpan refleksi. Jawaban yang kamu ucapkan tidak dikumpulkan oleh permainan. Nama yang kamu masukkan, pilihan bermain sendiri/bersama pasangan/berkelompok, kartu yang sedang dibuka, dan kartu yang sudah diambil disimpan sementara di memori tab ini untuk menyapamu dan menghindari pengulangan. Data sesi ini hilang saat kamu memuat ulang atau menutup halaman.',
+'The game code does not use browser cookies, local storage, or analytics scripts to track your play.':'Kode permainan tidak menggunakan cookie browser, penyimpanan lokal, atau skrip analitik untuk melacak permainan kamu.',
+'The invitation password':'Kata sandi undangan',
+'Your invitation password is used in this browser to unlock an encrypted card deck. The game does not send the password to a sign-in service or save it in browser storage. Reloading or closing the page clears the unlocked session and player names.':'Kata sandi undangan dipakai di browser ini untuk membuka kumpulan kartu yang terenkripsi. Permainan tidak mengirim kata sandi ke layanan masuk akun atau menyimpannya di penyimpanan browser. Memuat ulang atau menutup halaman menghapus sesi yang sudah terbuka dan nama pemain.',
+'Services that deliver the site':'Layanan pendukung situs',
+'The website is hosted through GitHub Pages and loads its typefaces from Google Fonts. Loading the website and its fonts sends ordinary web requests to those services. Their infrastructure may process technical information, such as IP addresses and browser details, to deliver and protect their services. Their own privacy practices apply to that processing.':'Situs ini dihosting melalui GitHub Pages dan memuat jenis huruf dari Google Fonts. Saat situs dan hurufnya dimuat, browser mengirim permintaan web ke layanan tersebut. Infrastruktur mereka dapat memproses informasi teknis, seperti alamat IP dan rincian browser, untuk menyediakan dan melindungi layanan. Pemrosesan itu mengikuti kebijakan privasi masing-masing layanan.',
+'Any sign-in or access checks required by the hosting platform are handled by that platform, separately from the game.':'Proses masuk akun atau pemeriksaan akses yang diwajibkan platform hosting ditangani oleh platform tersebut, terpisah dari permainan.',
+'Links and getting in touch':'Tautan dan menghubungi Pearling',
+'The Private Matter link takes you to a separate website with its own privacy practices. Selecting the email link opens your email application; it does not send a message automatically.':'Tautan Private Matter membawamu ke situs terpisah dengan kebijakan privasinya sendiri. Memilih tautan email akan membuka aplikasi email kamu; tidak ada pesan yang dikirim secara otomatis.',
+'If you email':'Jika kamu mengirim email ke',
+', you share your email address and whatever you include in your message with Pearling for the purpose of responding to you.':', kamu membagikan alamat email dan isi pesanmu kepada Pearling agar pesanmu dapat ditanggapi.',
+'Questions and updates':'Pertanyaan dan pembaruan',
+'This policy describes the current website and may be updated if its features or services change. The date above identifies the latest revision.':'Kebijakan ini menjelaskan situs yang berjalan saat ini dan dapat diperbarui jika fitur atau layanannya berubah. Tanggal di atas menunjukkan revisi terbaru.',
+'For privacy questions, contact':'Untuk pertanyaan tentang privasi, hubungi',
+'Your name':'Nama kamu','Your partner’s name':'Nama pasangan kamu','Player {n}':'Pemain {n}',
+'Please enter a name for every player.':'Isi nama setiap pemain, ya.',
+'Hello, {names}.':'Halo, {names}.','SOLO / A MOMENT FOR YOU':'SENDIRI / WAKTU UNTUK DIRIMU',
+'PARTNER / A CONVERSATION FOR TWO':'PASANGAN / OBROLAN BERDUA','GROUP / YOUR PEOPLE, YOUR CONVERSATION':'KELOMPOK / ORANG-ORANGMU, OBROLANMU',
+'Sit with your answer. What makes it yours?':'Renungkan jawabanmu. Apa yang membuatmu memilihnya?',
+'{n} of {total} drawn':'{n} dari {total} kartu sudah diambil','CARD {n} / FIVE WAYS TO REASON':'KARTU {n} / LIMA SUDUT PANDANG',
+'Playful':'Ringan','Personal':'Personal','Complicated':'Rumit','Uncomfortable':'Mengusik','Extreme':'Ekstrem',
+'Opening the deck…':'Membuka kartu…','That password didn’t open the deck. Try again.':'Kata sandinya belum cocok. Coba lagi, ya.',
+'The deck could not load. Please try again.':'Kartu belum bisa dimuat. Coba lagi, ya.',
+'E—— Deep! · A conversation worth having.':'E—— Deep! · Obrolan yang layak dijalani.',
+'Privacy policy · E—— Deep!':'Kebijakan privasi · E—— Deep!'
+};
+let lang=new URLSearchParams(location.search).get('lang')==='id'?'id':'en';
+const nodes=[];const walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let node;
+while(node=walker.nextNode()){if(!['SCRIPT','STYLE'].includes(node.parentElement?.tagName)&&node.textContent.trim())nodes.push({node,original:node.textContent})}
+const attributes=[];document.querySelectorAll('[aria-label],[placeholder]').forEach(el=>{for(const attr of ['aria-label','placeholder'])if(el.hasAttribute(attr))attributes.push({el,attr,original:el.getAttribute(attr)})});
+Object.assign(id,{'Meet the players and deal a random card':'Kenali para pemain dan ambil kartu acak','Close player setup':'Tutup pengaturan pemain','Close how to play':'Tutup cara bermain','Close perspectives':'Tutup sudut pandang','More from Pearling':'Lainnya dari Pearling','Contact Pearling':'Hubungi Pearling'});
+function t(s,vars={}){let result=lang==='id'?(id[s]??s):s;for(const [k,v] of Object.entries(vars))result=result.replaceAll('{'+k+'}',v);return result}
+const originalTitle=document.title;
+function apply(){document.documentElement.lang=lang;document.body.classList.toggle('lang-id',lang==='id');for(const {node,original}of nodes){if(node.isConnected){const text=original.trim();node.textContent=original.replace(text,t(text))}}for(const {el,attr,original}of attributes)el.setAttribute(attr,t(original));document.title=t(originalTitle);document.querySelectorAll('[data-lang]').forEach(b=>{b.setAttribute('aria-pressed',String(b.dataset.lang===lang));b.classList.toggle('active',b.dataset.lang===lang)});document.querySelectorAll('a[href="privacy.html"],a[href^="privacy.html?"],a[href="./"],a[href^="./?"]').forEach(a=>{let base=a.getAttribute('href').split('?')[0];a.setAttribute('href',base+(lang==='id'?'?lang=id':''))});window.dispatchEvent(new Event('languagechange'))}
+window.EDLocale={t,get lang(){return lang},set(value){lang=value;const u=new URL(location.href);if(lang==='id')u.searchParams.set('lang','id');else u.searchParams.delete('lang');history.replaceState(null,'',u);apply()}};
+document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>window.EDLocale.set(b.dataset.lang));apply();
+})();
